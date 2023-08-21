@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="utf-8">
+		<title>COMP5347 Assignment One</title>
+		<link rel="stylesheet" href="index.css">
+		<script type="text/javascript" src="index.js"></script>
+	</head>
+	<body>
+		<form method="get" action="" id="mainForm">
+			<div id="searchBox">
+				<div id="inputBoxes">
+					<input type="search" id="searchBar">
+					<input type="button" value="Search" id="searchBtn"> 
+					<select id="filter">
+
+					</select>
+					<input type="button" value="Filter" id="filterBtn">
+				</div>
+				<div id="btns">
+					<div id="darkMode">
+						<input type="checkbox" id="darkModeCheckbox"><label for="darkModeCheckbox" id="darkModeLabel">Dark mode</label>
+					</div>
+					<div id="cartBtns">
+						<input type="button" value="Add to cart" id="addBtn">
+						<input type="button" value="Reset the cart" id="resetBtn">
+						<img src="images/shopping_cart.png" id="cart"><p id="cartCount">(0)</p>
+					</div>
+				</div>
+				
+			</div>
+
+			<div id="listBox">
+				<table>
+					<caption>AZBooks</caption>
+					<thead>
+						<tr>
+							<th colspan="2"></th> <!-- checkbox and thumbnail -->
+							<th>Title</th>
+							<th class="ratings">Ratings</th>
+							<th>Authors</th>
+							<th>Year</th>
+							<th>Price</th>
+							<th>Publisher</th>
+							<th>Category</th>
+						</tr>
+					</thead>
+					<tbody id="tableBody">
+
+					</tbody>
+				</table>
+			</div>
+		</form>
+	</body>
+</html>

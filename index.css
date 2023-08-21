@@ -1,0 +1,96 @@
+﻿/* general text formatting */
+
+h1, h2, h3, nav, footer {
+	font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+body {
+	font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+	font-size: 80%;
+}
+
+div#searchBox, div#listBox {
+	margin: 0.25em auto;
+	padding: 1em;
+	border: 1pt solid #95bef0;
+	width: 80%;
+}
+div#searchBox {
+	margin-top: 1em;
+	background-color: #ebf4fb;
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+}
+
+div#listBox {
+	margin-top: 1em;
+	background-color: #fafcff;
+}
+
+div#btns {
+	display: flex;
+}
+
+div#darkMode {
+	margin-right: 0.25em;
+}
+
+input#darkModeCheckbox, label#darkModeLabel, img#cart {
+	vertical-align: middle;
+}
+
+p#cartCount, img#cart {
+	display: inline;
+}
+
+img#cart {
+	height: 20px;
+}
+
+input#searchBar, select#filter {
+	min-width: 33%;
+}
+
+table {
+	border: collapse;
+	border-spacing: 0;
+}
+
+table tbody td {
+	border-top: 1pt solid #95bef0;
+	line-height: 1.5em;
+	vertical-align: middle;
+	padding: 0.5em 0.75em;
+}
+table thead th {
+	text-align: left;
+	padding: 0.25em 0.75em;
+}
+table thead {
+	background-color: #ebf4fb;
+}
+
+table tbody td:first-child {
+	text-align: center;
+	padding: 0.5em 0em;
+}
+
+caption {
+	background-color: #95bef0;
+	padding: 0.5em 0.5em;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+img.thumbnail {
+	height: 80px;
+	width: 65px;
+}
+
+td.title {
+	font-style: italic;
+}
+
+th.ratings {
+	min-width: 80px;
+}
